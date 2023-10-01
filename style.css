@@ -46,8 +46,8 @@ header {
 }
 
 .header_container img {
-	width: 10rem;
-	height: 3.3rem;
+	width: 15rem;
+	/* height: 3.3rem; */
 	cursor: pointer;
 	margin-left: 40px;
 }
@@ -279,9 +279,13 @@ body.dark {
 
 .container {
 	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:  20px auto;
 	font-family: sans-serif;
-
-	padding-top: 60px;
+	/* position: relative;
+	top: 70px; */
+	margin-top: 70px;
 }
 .container a {
 	display: flex;
@@ -301,7 +305,7 @@ body.dark {
 }
 
 .content h1 {
-	font-size: 80px;
+	font-size: 70px;
 	color: #d9d9d9;
 }
 
@@ -333,8 +337,8 @@ body.dark {
 .local {
 	display: flex;
 	justify-content: center;
-	margin-top: 10px;
-	margin-bottom: 134px;
+	margin: 10px auto;
+	margin-bottom: 110px;
 	align-items: center;
 }
 
@@ -369,9 +373,9 @@ body.dark {
 /* product container */
 
 .product-container {
-	height: 32vh;
+	/* height: 32vh; */
 	/* width: 100vw; */
-	padding-top: 20px;
+	padding: 10vh 0px;
 	background-color: #d9d9d9;
 	display: flex;
 	justify-content: center;
@@ -380,8 +384,6 @@ body.dark {
 
 .Accessories-box {
 	border-radius: 14px;
-	/* width: 170px; */
-	height: 220px;
 	margin: 0 5em;
 	align-items: center;
 }
